@@ -1364,6 +1364,7 @@ do
             TextXAlignment = Enum.TextXAlignment.Left;
             ZIndex = 5;
             Parent = Container;
+            RichText = true
         });
 
         if DoesWrap then
@@ -1449,6 +1450,7 @@ do
                 Text = Button.Text;
                 ZIndex = 6;
                 Parent = Inner;
+                RichText = true
             });
 
             Library:Create('UIGradient', {
@@ -1650,6 +1652,7 @@ do
             TextXAlignment = Enum.TextXAlignment.Left;
             ZIndex = 5;
             Parent = Container;
+            RichText = true
         });
 
         Groupbox:AddBlank(1);
