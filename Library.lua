@@ -149,6 +149,7 @@ function Library:CreateLabel(Properties, IsHud)
         TextColor3 = Library.FontColor;
         TextSize = 16;
         TextStrokeTransparency = 0;
+        RichText = true
     });
 
     Library:ApplyTextStroke(_Instance);
