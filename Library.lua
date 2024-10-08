@@ -1863,6 +1863,7 @@ do
             TextXAlignment = Enum.TextXAlignment.Left;
             ZIndex = 6;
             Parent = ToggleInner;
+            RichText = true
         });
 
         Library:Create('UIListLayout', {
